@@ -1,1 +1,11 @@
 # Gettingdata
+
+
+Steps R Code
+-
+-
+-
+-
+-
+-
+-
