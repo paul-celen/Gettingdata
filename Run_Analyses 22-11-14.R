@@ -4,23 +4,23 @@ library(reshape2)
 
 # -- A. Set Data.frames ---------------------------------------------------------
 
-dttest <- data.frame          #  1. Raw Data  
-dttestSubject <- data.frame   #  2. Raw Data
-dttestAct <- data.frame       #  3. Raw Data
-dtmergedtest <- data.frame    #  4. Combine Raw Data
+dttest <- data.frame()          #  1. Raw Data  
+dttestSubject <- data.frame()   #  2. Raw Data
+dttestAct <- data.frame()       #  3. Raw Data
+dtmergedtest <- data.frame()    #  4. Combine Raw Data
 
-dttrain <- data.frame         #  5. Raw Data
-dttrainSbject<- data.frame    #  6. Raw Data
-dttrainAct<- data.frame       #  7. Raw Data
-dtmergedtrain <- data.frame   #  8. Combine Raw Data
+dttrain <- data.frame()         #  5. Raw Data
+dttrainSbject<- data.frame()    #  6. Raw Data
+dttrainAct<- data.frame()       #  7. Raw Data
+dtmergedtrain <- data.frame()   #  8. Combine Raw Data
 
-dtmerged <- data.frame        #  9. Combine Raw Data
-dtfeatures <- data.frame      # 11. Raw Data 
-dtcolnames <- data.frame      # 12. tidy data, selecting variable
-colnames1 <- vector           # 13. tidy data, selecting variable
-colnames2 <- vector           # 14. tidy data, selecting variable
-dtsplit <- data.frame         # 15. tidy data, Melted dataframe
-dtAvg <- data.frame           # 16. tidy data, Dataframe with avg by subject and Activity
+dtmerged <- data.frame()        #  9. Combine Raw Data
+dtfeatures <- data.frame()      # 11. Raw Data 
+dtcolnames <- data.frame ()     # 12. tidy data, selecting variable
+colnames1 <- vector()           # 13. tidy data, selecting variable
+colnames2 <- vector()           # 14. tidy data, selecting variable
+dtsplit <- data.frame()         # 15. tidy data, Melted dataframe
+dtAvg <- data.frame()           # 16. tidy data, Dataframe with avg by subject and Activity
 
 # -- B. Read txt files into dataframes --------------------------------------------
 # Test
