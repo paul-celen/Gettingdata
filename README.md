@@ -1,7 +1,7 @@
 # Gettingdata
 
 
-File Repo
+Files in Repo
 - Read me
 - R-Code
 - Code book
